@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="IpaTool-AnalyzeInfoPlist">
+    <output-path>$PROJECT_DIR$/out/artifacts/IpaTool_AnalyzeInfoPlist</output-path>
+    <root id="root">
+      <element id="file-copy" path="$PROJECT_DIR$/PutIpaFileOnMe.bat" />
+      <element id="directory" name="IpaToolSource">
+        <element id="file-copy" path="$PROJECT_DIR$/com/parkjt/python/ipa/AnalyzeInfoPlistInIpa.py" />
+        <element id="file-copy" path="$PROJECT_DIR$/com/parkjt/python/ipa/__init__.py" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+    </root>
+  </artifact>
+</component>
